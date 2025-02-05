@@ -1,0 +1,102 @@
+Data Engineering
+
+Data Science
+	|
+	|--> Data Analysis
+	|--> Data Visualization
+	|--> Machine Learning
+
+Summary Statistics --> Understand and reveal the highlights of data
+
+Data Type classification
+
+Measures of Center
+Mean, Median and Mode
+
+Measures of Spread
+Variance and Standard Deviation
+Mean Absolute Deviation
+Outliers
+-------------------------------------------------------------------
+Data Type classification
+	|
+	|--> Numeric (Quantitative)
+	|		|--> Discrete (Counted)
+	|		|		|--> Number of mobile phones sold in a month
+	|		|
+	|		|--> Continuous (Measured)
+	|				|--> Speed of a Car
+	|				|--> Temperature of a place
+	|
+	|--> Categorical (Qualitative)
+			|--> Ordinal (Ordered)
+			|		|--> Feedback from a Customer (1 to 5)
+			|
+			|--> Nominal (Unordered)
+					|--> Country of Residence
+					|--> Marital status (Married / Unmarried)
+
+Q1) What is your favorite subject?(Categorical Nominal)
+Q2) Gender (Male/Female)? (Categorical Nominal)
+Q3) How good are you with Math in a scale of 1 to 10? (Categorical Ordinal)
+Q4) What is your score in latest Math exam? (Numeric Discrete)
+Q5) In a class, how many have scored between 80 and 90? (Numeric Discrete)
+--------------------------------------------------------------------------------------
+
+Descriptive Statistics --> Collective summary and describing data
+Inferential Statistics --> Make inferences and predictions based on sample data
+
+Q1) Data is available on every customer care interaction. What's the average time it took to respond to a query? (Descriptive)
+
+Q2) I have interviewed 100 prospects for a job. What percent qualified to be selected? (Inferential)
+
+Q3) I caught 100 fishes while fishing. What's the average weight of the fishes which i caught?
+(Descriptive)
+
+Q4) I caught 100 fishes while fishing. What's the average weight of the fishes in the lake?
+(Inferential)
+
+Q5) 100,00 people have viewed the advertisement. What percent of people have clicked on it?
+(Descriptive)
+--------------------------------------------------------------------------------------
+
+Measures of Center
+------------------
+Data point --> 9 1 6 11 5 17 14 12 5 3
+
+Mean (Avg)
+Sum/number of Data points
+83/10 == 8.3
+
+Median
+Middle number when the data points are sorted in ascending order
+50% of data points are less than Median
+50% of data points are more than Median
+
+1 3 5 5 6 9 11 12 14 17
+Median == (6 + 9)/2 == 7.5
+
+Mode
+Data point that appears maximum number of times
+Mode == 5
+
+------------------------------------------------------------
+
+Measures of Spread
+How close or apart are the data points.
+
+Variance
+Average squared deviations (distance) from each data point to the Mean
+
+Standard Deviation
+Square root of the Variance
+
+Mean Absolute deviation
+--> Take the absolute value of the distance from the Mean
+--> Take the Mean of those distances
+
+Outlier
+Data points which are very far from the Mean value of the Data points
+Lower outlier 
+Higher outlier
+
